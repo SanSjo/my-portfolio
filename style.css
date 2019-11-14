@@ -24,7 +24,7 @@ header {
   width: 100%;
 }
 
-section {
+.headerTextContainer {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -49,12 +49,11 @@ h1 {
   letter-spacing: 0;
   color: #ffffff;
   opacity: 1;
-
   position: relative;
   top: -25px;
-
   width: 300px;
   height: 60px;
+  text-shadow: 4px 4px 4px grey;
 }
 
 .portfolioName {
@@ -70,6 +69,7 @@ p.portfolio {
   letter-spacing: 0.52px;
   color: #ffffff;
   opacity: 1;
+  text-shadow: 2px 2px 2px grey;
 
   /* Layout properties*/
 }
@@ -85,6 +85,7 @@ p.name {
   width: 100%;
   position: relative;
   left: 19px;
+  text-shadow: 2px 2px 2px grey;
 }
 
 .iconContainer {
@@ -135,6 +136,10 @@ p.name {
   display: flex;
   justify-content: center;
   background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+.profileText {
+  text-align: justify;
 }
 
 .containerTech {
@@ -272,8 +277,7 @@ span {
 .containerSkills {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-
+  flex-wrap: wrap;
   width: 100%;
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
@@ -288,16 +292,16 @@ span {
   width: 100px;
 }
 
+.skillsContent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 li {
   list-style-type: none;
   text-align: center;
   padding: 3px;
-}
-
-.skillsContent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 /* For more info */
@@ -350,6 +354,7 @@ p.iconText,
 .iconTextStack {
   margin-left: -20px;
 }
+
 /*Footer */
 
 footer {
@@ -385,16 +390,24 @@ h4.footer {
   header {
     width: 700px;
   }
-  section {
+  .headerTextContainer {
     position: relative;
     left: 150px;
-    bottom: 90px;
+    bottom: 60px;
   }
   .iconContainer {
     bottom: 500px;
   }
   .profileImage {
     bottom: 400px;
+  }
+  .postParagraph {
+    width: 400px;
+  }
+  .skillsContent {
+    justify-content: center;
+  }
+  ul {
   }
 }
 
@@ -407,18 +420,31 @@ h4.footer {
     width: 1000px;
   }
 
-  section {
+  .headerTextContainer {
     position: relative;
-    left: 250px;
+    left: 150px;
     bottom: 90px;
   }
 
+  h1 {
+    font-size: 30px;
+  }
+
   .profileImg {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .profileImage {
+    bottom: 400px;
+    right: 100px;
   }
 
   .postParagraph {
-    width: 500px;
+    width: 400px;
+  }
+
+  .skillsContent {
+    justify-content: center;
   }
 }

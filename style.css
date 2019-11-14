@@ -141,14 +141,19 @@ p.name {
   width: 100%;
   display: flex;
   justify-content: center;
-
+  height: 150px;
   background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.techText {
 }
 
 .techH3 {
   display: flex;
   justify-content: center;
 }
+
+/* Project Container */
 
 .containerProject {
   width: 100%;
@@ -171,8 +176,6 @@ h3.projects {
   width: 300px;
   margin-top: 50px;
 }
-.containerPosts {
-}
 
 .h3Posts {
   display: flex;
@@ -190,6 +193,7 @@ h3 {
   opacity: 1;
   background: red;
   text-align: center;
+  margin-top: 50px;
 }
 
 .posts {
@@ -216,11 +220,12 @@ p.profileText {
   width: 302px;
   height: 228px;
 }
-.projectContent {
-}
+
 .projectContent p {
   display: flex;
   justify-content: center;
+  padding: 10px;
+  width: 100;
 }
 
 span {
@@ -242,10 +247,111 @@ span {
 
 /* My thoughts about code */
 
+.containerPosts {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.postContent {
+  padding: 20px;
+}
+.postParaHeader {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.postParagraph {
+  text-align: justify;
+}
+
+/* Skills */
+
+.containerSkills {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  width: 100%;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+.h3Skills {
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.skills {
+  width: 100px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  padding: 3px;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* For more info */
+
+.h3More {
+  display: flex;
+  justify-content: center;
+}
+
+.forMore {
+  width: 150px;
+}
+
+.iconMoreContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.iconMore {
+  margin-top: 10%;
+  width: 50px;
+  height: 49px;
+  border-radius: 100%;
+  border: 2px solid red;
+}
+
+.iconImgBottom {
+  color: white;
+  position: relative;
+  top: 6px;
+  left: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+p.iconText,
+.iconTextStack {
+  font-size: 14px;
+  width: 200px;
+  margin-top: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.iconTextStack {
+}
+/*Footer */
+
 footer {
   width: 100%;
   margin-top: 100px;
   background: #072bce;
+  height: 250px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .footerContent {
@@ -254,4 +360,11 @@ footer {
   letter-spacing: 0;
   color: #ffffff;
   opacity: 1;
+  line-height: 1px;
+  margin-top: 50px;
+}
+
+h4.footer {
+  padding-bottom: 20px;
+  font-size: 20px;
 }

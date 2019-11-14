@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
+  max-width: 700px;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
   top: 0px;
   left: 0px;
   height: 500px;
+  background: #170303 0% 0% no-repeat padding-box;
 }
 
 .headerImage {
@@ -19,7 +22,6 @@ header {
   height: 500px;
   z-index: -100;
   width: 100%;
-  background: #170303 0% 0% no-repeat padding-box;
 }
 
 section {
@@ -92,7 +94,7 @@ p.name {
   margin-right: 10%;
   position: relative;
   z-index: 1;
-  bottom: 400px;
+  bottom: 450px;
 }
 
 .icon {
@@ -101,6 +103,7 @@ p.name {
   height: 39px;
   border-radius: 100%;
   border: 2px solid white;
+  margin-right: 5px;
 }
 
 .iconImg {
@@ -129,11 +132,8 @@ p.name {
 }
 
 .containerProfile {
-  width: 100%;
   display: flex;
-
   justify-content: center;
-
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
 
@@ -180,6 +180,7 @@ h3.projects {
 .h3Posts {
   display: flex;
   justify-content: center;
+  background: white;
 }
 
 h3 {
@@ -236,6 +237,7 @@ span {
 .tags {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .tags p {
@@ -250,6 +252,8 @@ span {
 .containerPosts {
   width: 100%;
   background: #ffffff 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
 }
 
 .postContent {
@@ -298,6 +302,9 @@ li {
 
 /* For more info */
 
+.moreInfo {
+  background: white;
+}
 .h3More {
   display: flex;
   justify-content: center;
@@ -341,6 +348,7 @@ p.iconText,
 }
 
 .iconTextStack {
+  margin-left: -20px;
 }
 /*Footer */
 
@@ -367,4 +375,50 @@ footer {
 h4.footer {
   padding-bottom: 20px;
   font-size: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  header {
+    width: 700px;
+  }
+  section {
+    position: relative;
+    left: 150px;
+    bottom: 90px;
+  }
+  .iconContainer {
+    bottom: 500px;
+  }
+  .profileImage {
+    bottom: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    max-width: 1000px;
+    margin: 0;
+  }
+  header {
+    width: 1000px;
+  }
+
+  section {
+    position: relative;
+    left: 250px;
+    bottom: 90px;
+  }
+
+  .profileImg {
+    height: 250px;
+    width: 250px;
+  }
+
+  .postParagraph {
+    width: 500px;
+  }
 }

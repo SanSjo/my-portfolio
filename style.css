@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  border: 1px solid #707070;
+  top: 0px;
+  left: 0px;
+  height: 500px;
+}
+
+.headerImage {
+  object-fit: cover;
+  height: 500px;
+  z-index: -100;
+  width: 100%;
+  background: #170303 0% 0% no-repeat padding-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.headerText {
+  left: 40px;
+  width: 100%;
+  height: 149px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  position: relative;
+  z-index: 3;
+  bottom: 400px;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+
+  position: relative;
+  top: -25px;
+
+  width: 300px;
+  height: 60px;
+}
+
+.portfolioName {
+  display: flex;
+  flex-direction: row;
+}
+
+p.portfolio {
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.52px;
+  color: #ffffff;
+  opacity: 1;
+
+  /* Layout properties*/
+}
+
+p.name {
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.52px;
+  color: #ffffff;
+  opacity: 1;
+  width: 100%;
+  position: relative;
+  left: 19px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10%;
+  position: relative;
+  z-index: 1;
+  bottom: 400px;
+}
+
+.icon {
+  margin-top: 10%;
+  width: 40px;
+  height: 39px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.iconImg {
+  color: white;
+  position: relative;
+  top: 7px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+  bottom: 300px;
+}
+
+.profileImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-right: 5%;
+}
+
+.containerProfile {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+.containerTech {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.techH3 {
+  display: flex;
+  justify-content: center;
+}
+
+.containerProject {
+  width: 100%;
+
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+h3.projects {
+  position: relative;
+
+  width: 250px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.projectImg {
+  width: 300px;
+  margin-top: 50px;
+}
+.containerPosts {
+}
+
+.h3Posts {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  position: relative;
+  width: 62px;
+  height: 27px;
+  text-align: left;
+  font: Bold 22px/27px Montserrat;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  background: red;
+  text-align: center;
+}
+
+.posts {
+  width: 190px;
+}
+
+.h3Projects {
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+p.techText {
+  text-align: center;
+
+  width: 303px;
+  height: 228px;
+}
+
+p.profileText {
+  text-align: left;
+  padding-top: 60px;
+  left: 37px;
+  width: 302px;
+  height: 228px;
+}
+.projectContent {
+}
+.projectContent p {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.tags p {
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background: #fddfe7;
+}
+
+/* My thoughts about code */
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background: #072bce;
+}
+
+.footerContent {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}

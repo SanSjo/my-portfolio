@@ -122,14 +122,22 @@ div.name {
   margin-right: 5%;
 }
 
-.headerTextContainer {
-}
+/* ABOUT ME CONTAINER */
 .containerProfile {
   display: flex;
   justify-content: center;
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
 
+p.profileText {
+  text-align: justify;
+  padding-top: 60px;
+  left: 37px;
+  width: 302px;
+  height: 228px;
+}
+
+/* TECH CONTAINER */
 .containerTech {
   width: 100%;
   display: flex;
@@ -141,6 +149,12 @@ div.name {
 .techH3 {
   display: flex;
   justify-content: center;
+}
+
+p.techText {
+  text-align: center;
+  width: 303px;
+  height: 228px;
 }
 
 /* Project Container */
@@ -171,6 +185,12 @@ h3.projects {
   margin-top: 50px;
 }
 
+.h3Projects {
+  display: flex;
+  justify-content: center;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
 .h3Posts {
   display: flex;
   justify-content: center;
@@ -193,27 +213,6 @@ h3 {
 
 .posts {
   width: 190px;
-}
-
-.h3Projects {
-  display: flex;
-  justify-content: center;
-  background: #f4f4f4 0% 0% no-repeat padding-box;
-}
-
-p.techText {
-  text-align: center;
-
-  width: 303px;
-  height: 228px;
-}
-
-p.profileText {
-  text-align: justify;
-  padding-top: 60px;
-  left: 37px;
-  width: 302px;
-  height: 228px;
 }
 
 .projectContent {
@@ -396,6 +395,8 @@ a.contact {
   text-decoration: none;
 }
 
+/* Media query for ipad devices*/
+
 @media (min-width: 600px) {
   body {
     margin: 0 auto;
@@ -447,6 +448,7 @@ a.contact {
   }
 }
 
+/* Media query for desktop devices */
 @media (min-width: 900px) {
   body {
     width: 100%;

@@ -4,8 +4,14 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0 auto;
+  margin: 0px;
+  width: 100%;
   max-width: 700px;
+}
+
+main {
+  margin: 0;
+  width: 100%;
 }
 
 header {
@@ -14,13 +20,12 @@ header {
   top: 0px;
   left: 0px;
   height: 500px;
-  background: #170303 0% 0% no-repeat padding-box;
 }
 
 .headerImage {
   object-fit: cover;
   height: 500px;
-  z-index: -100;
+  z-index: -1;
   width: 100%;
 }
 
@@ -50,10 +55,9 @@ h1 {
   color: #ffffff;
   opacity: 1;
   position: relative;
-  top: -25px;
+  top: px;
   width: 300px;
   height: 60px;
-  text-shadow: 4px 4px 4px grey;
 }
 
 .portfolioName {
@@ -69,12 +73,9 @@ p.portfolio {
   letter-spacing: 0.52px;
   color: #ffffff;
   opacity: 1;
-  text-shadow: 2px 2px 2px grey;
-
-  /* Layout properties*/
 }
 
-p.name {
+div.name {
   text-align: left;
   font-family: "Roboto";
   font-size: 13px;
@@ -84,8 +85,8 @@ p.name {
   opacity: 1;
   width: 100%;
   position: relative;
+  top: 13px;
   left: 19px;
-  text-shadow: 2px 2px 2px grey;
 }
 
 .iconContainer {
@@ -105,13 +106,11 @@ p.name {
   border-radius: 100%;
   border: 2px solid white;
   margin-right: 5px;
+  background: rgb(236, 235, 235);
 }
 
 .iconImg {
   color: white;
-  position: relative;
-  top: 7px;
-  left: 7px;
   width: 20px;
   height: 20px;
 }
@@ -138,10 +137,6 @@ p.name {
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
 
-.profileText {
-  text-align: justify;
-}
-
 .containerTech {
   width: 100%;
   display: flex;
@@ -160,9 +155,13 @@ p.name {
 
 /* Project Container */
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .containerProject {
   width: 100%;
-
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
 
@@ -220,23 +219,30 @@ p.techText {
 }
 
 p.profileText {
-  text-align: left;
+  text-align: justify;
   padding-top: 60px;
   left: 37px;
   width: 302px;
   height: 228px;
 }
 
-.projectContent p {
+.projectContent {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 10px;
   width: 100;
 }
 
-span {
+.projectContent {
+  display: flex;
+}
+
+h4 {
   color: red;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .tags {
@@ -294,6 +300,7 @@ span {
 
 .skillsContent {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -302,6 +309,10 @@ li {
   list-style-type: none;
   text-align: center;
   padding: 3px;
+}
+
+span {
+  color: red;
 }
 
 /* For more info */
@@ -322,7 +333,6 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  position: relative;
 }
 
 .iconMore {
@@ -331,28 +341,31 @@ li {
   height: 49px;
   border-radius: 100%;
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  background: white;
 }
 
 .iconImgBottom {
   color: white;
   position: relative;
-  top: 6px;
-  left: 8px;
+  top: 7px;
   width: 30px;
   height: 30px;
+}
+
+.iconTextContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 p.iconText,
 .iconTextStack {
   font-size: 14px;
   width: 200px;
-  margin-top: 30px;
   color: red;
   font-weight: bold;
-}
-
-.iconTextStack {
-  margin-left: -20px;
 }
 
 /*Footer */
@@ -377,7 +390,7 @@ footer {
   margin-top: 50px;
 }
 
-h4.footer {
+h5.footer {
   padding-bottom: 20px;
   font-size: 20px;
 }
@@ -398,28 +411,40 @@ h4.footer {
   .iconContainer {
     bottom: 500px;
   }
-  .profileImage {
-    bottom: 400px;
+  p.profileText {
+    margin-top: 50px;
+    width: 500px;
+    text-align: justify;
   }
+
+  .projectContent {
+    flex-direction: row;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
   .postParagraph {
-    width: 400px;
+    width: 500px;
   }
   .skillsContent {
     justify-content: center;
-  }
-  ul {
   }
 }
 
 @media (min-width: 900px) {
   body {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0;
   }
   header {
-    width: 1000px;
+    width: 100%;
   }
 
+  .headerImage {
+    width: 100%;
+  }
   .headerTextContainer {
     position: relative;
     left: 150px;
@@ -440,8 +465,12 @@ h4.footer {
     right: 100px;
   }
 
+  .profileText {
+    width: 800px;
+  }
+
   .postParagraph {
-    width: 400px;
+    width: 600px;
   }
 
   .skillsContent {

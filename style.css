@@ -191,12 +191,6 @@ h3.projects {
   background: #f4f4f4 0% 0% no-repeat padding-box;
 }
 
-.h3Posts {
-  display: flex;
-  justify-content: center;
-  background: white;
-}
-
 h3 {
   position: relative;
   width: 62px;
@@ -209,6 +203,11 @@ h3 {
   background: red;
   text-align: center;
   margin-top: 50px;
+}
+.h3Posts {
+  display: flex;
+  justify-content: center;
+  background: white;
 }
 
 .posts {

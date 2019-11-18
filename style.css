@@ -321,8 +321,7 @@ span {
 .iconMoreContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  -moz-justify-content: space-evenly;
+  justify-content: space-evenly;
   margin: 0;
 }
 
@@ -347,20 +346,26 @@ span {
 
 .iconTextContainer {
   display: flex;
-  justify-content: space-around;
-  -moz-justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.iconTextContainer {
   margin-top: 10px;
 }
 
 p.iconText,
 .iconTextStack {
   font-size: 14px;
-  width: 200px;
+  width: 35px;
   color: red;
   font-weight: bold;
   display: flex;
-  margin-left: -14px;
-  -moz-justify-content: space-evenly;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*Footer */

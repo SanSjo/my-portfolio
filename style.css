@@ -34,7 +34,7 @@ header {
   z-index: 3;
   bottom: 400px;
   width: 300px;
-  margin-left: 40px;
+  margin-left: 200px;
   padding: 20px;
 }
 
@@ -98,7 +98,11 @@ div.name {
   border-radius: 100%;
   border: 2px solid white;
   margin-right: 5px;
-  background: rgb(236, 235, 235);
+  background: rgba(236, 235, 235, 0.208);
+}
+
+.icon:hover {
+  background: rgba(236, 235, 235, 0.94);
 }
 
 .iconImg {
@@ -112,8 +116,7 @@ div.name {
   justify-content: flex-end;
   position: relative;
   z-index: 2;
-
-  top: -400px;
+  top: -430px;
 }
 
 .profileImg {
@@ -135,7 +138,7 @@ p.profileText {
   text-align: justify;
   padding-top: 60px;
   left: 37px;
-  width: 302px;
+  width: 500px;
   height: 228px;
   line-height: 1.5;
 }
@@ -195,6 +198,8 @@ h3.mainHeaderProjects {
   z-index: 1;
 }
 
+/*
+
 .textContainerOverImage {
   background: rgba(0, 0, 0, 0.372);
   bottom: 360px;
@@ -221,6 +226,8 @@ h3.mainHeaderProjects {
 .projectImg:hover {
   background-color: rgba(0, 0, 0, 0.66);
 }
+
+*/
 
 .h3Projects {
   display: flex;

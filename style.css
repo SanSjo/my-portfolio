@@ -121,7 +121,7 @@ span.frontend-title {
   justify-content: flex-end;
   position: relative;
   z-index: 2;
-  top: -430px;
+  top: -500px;
   right: 200px;
 }
 
@@ -148,6 +148,12 @@ p.profileText {
   width: 600px;
   height: 230px;
   line-height: 1.5;
+}
+
+i {
+  color: red;
+  font-size: 18px;
+  width: 10px;
 }
 
 /* TECH CONTAINER */
@@ -207,8 +213,6 @@ h3.mainHeaderProjects {
   z-index: 1;
 }
 
-/*
-
 .textContainerOverImage {
   background: rgba(0, 0, 0, 0.372);
   bottom: 360px;
@@ -235,8 +239,6 @@ h3.mainHeaderProjects {
 .projectImg:hover {
   background-color: rgba(0, 0, 0, 0.66);
 }
-
-*/
 
 .h3Projects {
   display: flex;

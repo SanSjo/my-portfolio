@@ -318,6 +318,10 @@ h4 {
   background: red;
 }
 
+.otherProjectParagraph {
+  width: 50%;
+}
+
 /* My thoughts about code */
 
 .containerPosts {
@@ -568,6 +572,11 @@ a.contact {
 
   .otherProjectsContainer {
     margin-bottom: 50px;
+  }
+
+  .otherProjectParagraph {
+    width: 80%;
+    text-align: justify;
   }
 
   .projectContent {

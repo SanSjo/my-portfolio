@@ -513,10 +513,6 @@ a.contact {
     width: 400px;
   }
 
-  .headerImage {
-    width: 400px;
-  }
-
   .headerTextContainer {
     position: relative;
     width: 300px;
@@ -620,72 +616,3 @@ a.contact {
     justify-content: center;
   }
 }
-
-/* Media query for tablet devices 
-@media (max-width: 900px) {
-  body {
-    width: 900px;
-  }
-
-  .headerImage {
-    width: 900px;
-  }
-
-  .headerTextContainer {
-    position: relative;
-    justify-content: center;
-    left: 0px;
-    margin-left: 20%;
-  }
-
-  .headerText {
-    width: 700px;
-  }
-
-  h1 {
-    font-size: 35px;
-    top: -20px;
-  }
-
-  .profileImg {
-    height: 200px;
-    width: 200px;
-  }
-
-  .profileImage {
-    bottom: 400px;
-  }
-
-  .containerProfile {
-    width: 900px;
-  }
-
-  .profileText {
-    width: 900px;
-    margin-top: 50px;
-  }
-
-  .containerProject {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .projectParagraph {
-    width: 300px;
-  }
-
-  .containerPosts {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .postParagraph {
-    width: 600px;
-  }
-
-  .skillsContent {
-    justify-content: center;
-  }
-}
-
-*/

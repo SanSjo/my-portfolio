@@ -44,7 +44,7 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0;
-  color: #ffffff;
+  color: #dac5c5;
   opacity: 1;
   position: relative;
   width: 250px;
@@ -173,7 +173,7 @@ i {
 
 p.techText {
   text-align: center;
-  width: 303px;
+  width: 500px;
   height: 228px;
 }
 

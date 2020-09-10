@@ -19,11 +19,14 @@
     <main>
       <!-- HEADER -->
     <header>
-      <img class="headerImage" src="images/pencils.jpg" alt="sunset over mountains" /> 
+      <img class="headerImage" src="images/pencils-grey.jpg" alt="pencils" /> 
       <div class="iconContainer">
         <button class="icon">
+       
           <a href="https://www.linkedin.com/in/susanna-sj%C3%B6berg-10258522/" target="_blank">
+            
             <img  class="iconImg" src="images/icon-linkedin.svg" alt="linkedin icon logo">
+           
           </a> 
         </button>
         <button class="icon">
@@ -56,7 +59,7 @@
 
     <div class="containerProfile">
       <p class="profileText" lang="en">
-        <i class="fas fa-long-arrow-alt-right"></i>  Hi! I’m a frontend developer and former PR Consultant with experience in communication and project management. 
+        <i class="fas fa-long-arrow-alt-right"></i>  Hi! I’m a frontend developer and former Senior PR Consultant with experience in communication and project management. 
         I come from an agency background and have a can do-attitude, i'm ambitious
         and are driven to solve problems that matter and to create nice code, which I love to do on my spare time.
       </p>
@@ -70,59 +73,97 @@
     <div class="containerTech">
       
       <p class="techText" lang="en">
-        HTML, CSS, Javascript, Flexbox, ES6, Github, mob-programming, API's, Web
-        Accessibly, pair-programming
+        HTML, CSS, Javascript, React, React Native, React Redux, NodeJs, Express, MongoDB, Flexbox, ES6, Github, mob-programming, API's, Web
+        Accessibility, pair-programming, Java, NextJs
       </p>
    
     </div>
 
     <!-- Project Container -->
     <div class="h3Projects">
-      <h3 class="mainHeaderProjects">FEATURED PROJECT</h3>
+      <h3 class="mainHeaderProjects">FEATURED PROJECTS</h3>
   </div>
     <section class="projects">
-     
+
+      <a href="https://github.com/SanSjo/skotrum-finalProject" target="_blank">
+      <div class="containerProject">
+              <div class="imgContainer">
+                  <img class="projectImg" src="/images/projects/finalProject.001.jpeg" alt="Image of happy thoughts project" >
+                <div class="textContainerOverImage">
+                  <div class="textOverImg">SKÖTRUMSKARTAN</div>
+                </div>
+                </div>
+                 
+          <div class="projectContent">
+              <p class="projectParagraph"><span class="projectHeader">SKÖTRUMSKARTAN.</span>This project is a app created in React Native and shows nearest nursery rooms on a map. I created a API with the markers data in Express Node with mongoose models. <a class="arrowLink" href="#">>></a></p> 
+          </div>
+          <div class="tags">
+              <p>React Native</p>
+              <p>JSX</p>
+              <p>API</p> 
+              <p>React Navigation</p>
+              <p>NodeJs</p>
+              <p>Mongoose</p>
+          </div>
+        </div>
+        </a>
+
+    <a href="https://github.com/SanSjo/project-movies" target="_blank">
     <div class="containerProject">
         <div class="imgContainer">
-            <a href="https://github.com/SanSjo/project-movies" target="_blank">
-              <img class="projectImg" src="images/projects/movie-project.png" alt="Image of movie project" ></a> 
+            
+              <img class="projectImg" src="images/projects/movie-project.png" alt="Image of movie project" />
+              <div class="textContainerOverImage">
+                <div class="textOverImg">MOVIE PROJECT</div>
+              </div>
             </div>
+        
+          <div class="tagsContainer">
           <div class="projectContent">
                 <p class="projectParagraph"><span class="projectHeader">MOVIE PROJECT.</span>Movie site build in multi-page react application with the most popular movies. <br/> It's build in React and JSX, using useState and useEffect hooks <a class="arrowLink" href="#" target="_blank">>></a></p>
                
             </div>
-            <div class="tags">
-                <p>React</p>
-                <p>JSX</p>
-                <p>CSS</p> 
-                <p>API</p> 
-                <p>useState</p>
-                <p>useEffect</p>
-              </div>
-          </div>
           
+              <div class="tags">
+                  <p>React</p>
+                  <p>JSX</p>
+                  <p>CSS</p> 
+                  <p>React Hooks</p> 
+              </div>
+            </div>
+           
+          </div>
+          </a> 
+
+          
+          <a href="https://github.com/SanSjo/project-happy-thoughts" target="_blank">
           <div class="containerProject">
               <div class="imgContainer">
-                  <a href="https://github.com/SanSjo/project-happy-thoughts" target="_blank"><img class="projectImg" src="images/projects/happy-thoughts.png" alt="Image of happy thoughts project" ></a>
+                  <img class="projectImg" src="images/projects/happy-thoughts.png" alt="Image of happy thoughts project" >
+                <div class="textContainerOverImage">
+                  <div class="textOverImg">HAPPY THOUGHTS</div>
                 </div>
+                </div>
+                 
           <div class="projectContent">
-           
-              <p class="projectParagraph"><span class="projectHeader">HAPPY THOUGHTS.</span>A site that where you can post happy thoughts. We practiced React state by fetching and posting data to an API. <a class="arrowLink" href="#">>></a></p>
-              
+              <p class="projectParagraph"><span class="projectHeader">HAPPY THOUGHTS.</span>A site that where you can post happy thoughts. We practiced React state by fetching and posting data to an API. <a class="arrowLink" href="#">>></a></p> 
           </div>
           <div class="tags">
               <p>React</p>
               <p>JSX</p>
               <p>CSS</p> 
-              <p>API</p> 
-              <p>useState</p>
-              <p>useEffect</p>
-            </div>
+              <p>NodeJs</p>
+          </div>
         </div>
-
+        </a>
+        
+        <a href="https://github.com/SanSjo/project-music-releases" target="_blank">
         <div class="containerProject">
         <div class="imgContainer">
-            <a href="https://github.com/SanSjo/project-music-releases" target="_blank"><img class="projectImg" src="images/projects/music-project.png" alt="Image of music project"></a>
+            <img class="projectImg" src="images/projects/music-project.png" alt="Image of music project">
+            <div class="textContainerOverImage">
+              <div class="textOverImg">MUSIC RELEASES</div>
+            </div>
           </div>
           
           <div class="projectContent">
@@ -134,13 +175,17 @@
               <p>JSX</p>
               <p>CSS</p> 
               <p>API</p> 
-              <p>React props</p> 
             </div>
         </div>
+        </a>
 
+        <a href="https://github.com/SanSjo/project-weather-app" target="_blank">
         <div class="containerProject">
         <div class="imgContainer">
-          <a href="https://github.com/SanSjo/project-weather-app" target="_blank"><img class="projectImg" src="images/projects/weatherApp.png" alt="Image of Weather app project"></a>
+          <img class="projectImg" src="images/projects/weatherApp.png" alt="Image of Weather app project" >
+          <div class="textContainerOverImage">
+            <div class="textOverImg">WEATHER APP</div>     
+          </div>
         </div>
         
         <div class="projectContent">
@@ -154,11 +199,16 @@
             <p>API</p> 
           </div>
       </div>
+      </a>
 
+      <a href="https://github.com/SanSjo/project-cluedo" target="_blank">
       <div class="containerProject">
           <div class="imgContainer">
-             <a href="https://github.com/SanSjo/project-cluedo" target="_blank"><img class="projectImg" src="images/projects/cluedo.png" alt="Image of cluedo project"></a>
-          </div>
+             <img class="projectImg" src="images/projects/cluedo.png" alt="Image of cluedo project">
+              <div class="textContainerOverImage">
+                <div class="textOverImg">CLUEDO GAME</div>
+              </div>
+            </div>
     
         <div class="projectContent">
             <p class="projectParagraph"><span class="projectHeader">CLUEDO GAME.</span>A cluedo game build in HTML, CSS and Javascript <a class="arrowLink" href="#" target="_blank">>></a></p>
@@ -170,11 +220,16 @@
           <p>Javascript</p>
       </div>
     </div>
+    </a>
 
 
+    <a class="imgProject" href="https://github.com/SanSjo/project-4" target="_blank">
       <div class="containerProject">
             <div class="imgContainer">             
-               <a class="imgProject" href="https://github.com/SanSjo/project-4" target="_blank"><img class="projectImg" src="images/projects/pizzaBot.png" alt="Image of Pizza bot project"></a>              
+               <img class="projectImg" src="images/projects/pizzaBot.png" alt="Image of Pizza bot project">              
+                <div class="textContainerOverImage">
+                  <div class="textOverImg">THE PIZZA BOT</div>
+                </div>
               </div>      
           <div class="projectContent">
           
@@ -187,10 +242,15 @@
             <p>Javascript</p>
         </div>
       </div>
+      </a>
       
+      <a href="https://github.com/SanSjo/project-3" target="_blank">
       <div class="containerProject">
             <div class="imgContainer">
-              <a href="https://github.com/SanSjo/project-3" target="_blank"><img class="projectImg" src="images/projects/businessSite.png" alt="Image of business site project"></a>
+              <img class="projectImg" src="images/projects/businessSite.png" alt="Image of business site project">
+              <div class="textContainerOverImage">
+                <div class="textOverImg">BUSINESS SITE</div>
+              </div>
             </div>
         
             <div class="projectContent">
@@ -203,11 +263,15 @@
             <p>Javascript</p>
           </div>
       </div>
+      </a>
 
-
+      <a href="https://github.com/SanSjo/project-2" target="_blank">
       <div class="containerProject">
             <div class="imgContainer">
-              <a href="https://github.com/SanSjo/project-2" target="_blank"><img class="projectImg" src="images/projects/newsSite.png" alt="Image of news site project"></a>
+              <img class="projectImg" src="images/projects/newsSite.png" alt="Image of news site project">
+              <div class="textContainerOverImage">
+                <div class="textOverImg">THE NEWS SITE</div>
+              </div>
             </div>
         
             <div class="projectContent">
@@ -219,15 +283,31 @@
                 <p>CSS</p>
         </div>
     </div>
+    </a>
+
+    
     <div class="otherProjectsContainer">
       <h3 class="headerOtherProject">OTHER PROJECTS</h3>
-      <p class="otherProjectParagraph"><span class="projectHeader">REACT NATIVE APP.</span> My first app that shows trending images from the site pexels. In this app I fetched the images from Pexels api and added a share method to share the images and Linking.URL to link to the image and to the fotographer<a class="arrowLink" href="https://github.com/SanSjo/project-react-native-app" target="_blank">>></a></p>
+
+      <a  href="https://www.lesslie.io" target="_blank">
+        <p class="otherProjectParagraph"><span class="projectHeader">LESSLIE TECHNOLOGIES WEBSITE.</span> A website for the company Lesslie Technologies. I created the website in Wordpress with elementor and added different plugins.<a class="arrowLink" href="https://www.lesslie.io" target="_blank"> >></a></p>
+        <div class="tags">
+          <p>Wordpress</p>
+          <p>Elementor</p>
+        </div>
+      </div>
+      </a>
+
+      <a  href="https://github.com/SanSjo/project-react-native-app" target="_blank">
+      <p class="otherProjectParagraph"><span class="projectHeader">REACT NATIVE APP.</span> My first app that shows trending images from the site pexels. In this app I fetched the images from Pexels api and added a share method to share the images and Linking.URL to link to the image and to the fotographer<a class="arrowLink" href="https://github.com/SanSjo/project-react-native-app" target="_blank"> >></a></p>
       <div class="tags">
         <p>React Native</p>
         <p>Styled components</p>
       </div>
     </div>
+    </a>
 
+    <a  href="https://github.com/SanSjo/project-redux-quiz" target="_blank">
     <div class="otherProjectsContainer">
       <p class="otherProjectParagraph"><span class="projectHeader">REACT REDUX QUIZ.</span> A quiz made in React Redux. In this project I made a quiz in Redux to learn about how to interact with the store using selectors and by dispatching actions.<a class="arrowLink" href="https://github.com/SanSjo/project-redux-quiz" target="_blank"> >></a></p>
       <div class="tags">
@@ -235,7 +315,9 @@
         <p>Styled components</p>
       </div>
     </div>
+    </a>
 
+    <a  href="https://github.com/SanSjo/project-todos" target="_blank">
     <div class="otherProjectsContainer">
       <p class="otherProjectParagraph"><span class="projectHeader">TODO APP.</span> A todo app build in redux. My todo app is build to add tasks, list tasks, toggle whether a task is done or not and show a count of either all completed todos.<a class="arrowLink" href="https://github.com/SanSjo/project-todos" target="_blank"> >></a></p>
       <div class="tags">
@@ -243,23 +325,41 @@
         <p>Styled components</p>
       </div>
     </div>
-  
+    </a>
+
+    <a  href="https://github.com/SanSjo/project-auth" target="_blank">
+     <div class="otherProjectsContainer">
+      <p class="otherProjectParagraph"><span class="projectHeader">BACKEND AND FRONTEND - AUTHORIZATION.</span> This project is made of two parts; a backend API, and a React frontend. An build API with authentication to implement a registration flow, and a frontend with forms to register, sign in, and view some content once you're logged in.<a class="arrowLink" href="https://github.com/SanSjo/project-auth" target="_blank"></a> >></a></p>
+      <div class="tags">
+        <p>Node Express</p>
+        <p>RESTful</p>
+        <p>React</p>
+        <p>MongoDB</p>
+        <p>Mongoose</p>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://github.com/SanSjo/project-mongo-api" target="_blank">
     <div class="otherProjectsContainer">
-      <p class="otherProjectParagraph"><span class="projectHeader">BACKEND - BUILD API IN EXPRESS.</span> I did some backend where I created an API in node Express using different RESTful endpoints that returns an array of data and single items.<a class="arrowLink" href="https://github.com/SanSjo/project-todos" target="_blank"> >></a></p>
+      <p class="otherProjectParagraph"><span class="projectHeader">BACKEND - BUILD API IN MONGODB.</span> This is a backend project which is build with MongoDB where I fetched using mongoose models. I first created my own data and converted it to JSON. In order to get all my data into my database I used the database seeding process.<a class="arrowLink" href="https://github.com/SanSjo/project-mongo-api" target="_blank"> >></a></p>
+      <div class="tags">
+        <p>Node Express</p>
+        <p>MongoDB</p>
+        <p>Mongoose</p>
+      </div>
+    </div>
+    </a>
+
+    <a  href="https://github.com/SanSjo/project-express-api" target="_blank">
+     <div class="otherProjectsContainer">
+      <p class="otherProjectParagraph"><span class="projectHeader">BACKEND - BUILD API IN EXPRESS.</span> I did some backend where I created an API in node Express using different RESTful endpoints that returns an array of data and single items.<a class="arrowLink" href="https://github.com/SanSjo/project-express-api" target="_blank"> >></a></p>
       <div class="tags">
         <p>Node Express</p>
         <p>RESTful</p>
       </div>
     </div>
-
-    <div class="otherProjectsContainer">
-      <p class="otherProjectParagraph"><span class="projectHeader">BACKEND - BUILD API IN MONGODB.</span> This is a backend project which is build with MongoDB where I fetched data from Mongo database using mongoose models. I first created my own data and converted it to JSON. In order to get all my data into my database I used the database seeding process.<a class="arrowLink" href="https://github.com/SanSjo/project-todos" target="_blank"> >></a></p>
-      <div class="tags">
-        <p>Node Express</p>
-        <p>MongoDB</p>
-        <p>Mongooose</p>
-      </div>
-    </div>
+    </a>
   </section>
 
     <!-- Post Container -->
@@ -300,19 +400,21 @@
       <ul>
           <li class="toolSkills"><span class="skillsHeader">CODE</span></li>
           <li class="toolSkills"> HTML5 </li>
-          <li class="toolSkills"> CSS </li>
+          <li class="toolSkills"> CSS Flexbox</li>
           <li class="toolSkills"> Javascript ES6 </li>
           <li class="toolSkills"> React </li>
           <li class="toolSkills"> React Native</li>
-          <li class="toolSkills"> Node.js</li>
-          <li class="toolSkills"> Node Express</li>
+          <li class="toolSkills"> NodeJS</li>
+          <li class="toolSkills"> Node ExpressJs</li>
           <li class="toolSkills"> MongoDB </li>
           <li class="toolSkills"> Mongooose </li>
+          <li class="toolSkills"> Heroku API </li>
+          <li class="codeSkills"> WCAG 2.0 </li>
+          <li class="toolSkills"> Wordpress</li>
           <li class="toolSkills"> GitHub</li>
-          <li class="toolSkills"> Flexbox</li>
           <li class="toolSkills"> Java Basics </li>
           <li class="toolSkills"> Bootstrap Basics</li>
-          <li class="toolSkills"> Wordpress Basics</li>
+         
           
       </ul>
   
@@ -325,6 +427,10 @@
           <li class="codeSkills"> Microsoft Excel</li>
           <li class="codeSkills"> Keynote</li>
           <li class="codeSkills"> Slack</li>
+          <li class="codeSkills"> Figma</li>
+          <li class="codeSkills"> GIMP</li>
+          
+          
       </ul>
 
       <ul>
@@ -336,12 +442,15 @@
           <li class="codeSkills"> Business Strategy</li>
           <li class="codeSkills"> Story telling </li>
           <li class="codeSkills"> Marketing </li>
+          
       </ul>
 
       <ul>
           <li class="codeSkills"><span class="skillsHeader">UPCOMING</span></li>
           <li class="codeSkills"> Php </li>
-          <li class="codeSkills">  </li>
+          <li class="codeSkills"> Phyton </li>
+          <li class="codeSkills"> C# 8.0 and .NET Core 3.0 </li>
+      
       </ul>
     </div>
 
@@ -350,7 +459,7 @@
   <!-- More info Container -->
     <div class="moreInfo">
         <div class="h3More">
-            <h3 class="forMore">FOR MORE</h3>
+            <h3 class="forMore">FOR MORE INFORMATION</h3>
         </div>
         <div class="iconMoreContainer">
         <button class="iconMore">

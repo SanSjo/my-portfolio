@@ -1,4 +1,4 @@
-#MY PORTFOLIO
+MY PORTFOLIO
 
 This is my portfolio including info about me and my former experience, my skills within frontend development, my projects I have done, and my thoughts about coding.
 

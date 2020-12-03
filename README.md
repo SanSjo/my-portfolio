@@ -2,7 +2,7 @@ MY PORTFOLIO
 
 This is my portfolio including info about me and my former experience, my skills within frontend development, my projects I have done, and my thoughts about coding.
 
-The website is build with HTML and CSS flexbox and was created out from a template that the website should look like. 
+The website is build with HTML and CSS flexbox and Jacascript. It was created out from a template that the website should look like. 
 
 More about the website:
    - The page are fully responsive. (mobile, tablet and desktop) 

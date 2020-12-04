@@ -48,6 +48,7 @@ h1 {
   position: relative;
   width: 250px;
   height: 60px;
+  text-shadow: 2px 2px 2px #c8a346;
 }
 
 .portfolioName {

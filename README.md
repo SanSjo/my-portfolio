@@ -12,4 +12,4 @@ More about the website:
 
 This will be a never ending projects which I will constantly add on with my coming skills, projects and thoughts.
 
-Here is my deployed portfolio: https://susannas-portfolio.netlify.com/
+My deployed portfolio: https://susannas-portfolio.netlify.com/

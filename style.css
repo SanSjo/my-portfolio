@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
   margin: 0;
+  
 }
 
 header {
@@ -35,6 +36,7 @@ header {
   bottom: 550px;
   width: 500px;
   padding: 20px;
+  
 }
 
 h1 {
@@ -93,7 +95,7 @@ span.frontend-title {
   margin-right: 25%;
   position: relative;
   z-index: 1;
-  bottom: 500px;
+  bottom: 600px;
 }
 
 .icon {
@@ -145,7 +147,7 @@ p.profileText {
   text-align: justify;
   padding-top: 60px;
   margin-top: 100px;
-
+  font-size: 16px;
   width: 600px;
   height: 200px;
   line-height: 1.5;
@@ -181,6 +183,7 @@ p.techText {
   width: 500px;
   height: 250px;
   line-height: 25px;
+  font-size: 16px;
 }
 
 /* Project Container */
@@ -262,6 +265,7 @@ span.projectHeader {
 }
 .projectParagraph {
   width: 400px;
+  font-size: 16px;
 }
 
 h3 {
@@ -337,6 +341,7 @@ h4 {
 
 .otherProjectParagraph {
   width: 50%;
+  font-size: 16px;
 }
 
 /* My thoughts about code */
@@ -370,6 +375,7 @@ h4 {
 p.postParagraph {
   text-align: justify;
   width: 400px;
+  font-size: 16px;
 }
 
 /* Skills */
@@ -409,6 +415,7 @@ li {
   list-style-type: none;
   text-align: center;
   padding: 3px;
+  font-size: 16px;
 }
 
 span {
@@ -514,6 +521,7 @@ footer {
   opacity: 1;
   line-height: 1px;
   margin-top: 50px;
+  font-size: 16px;
 }
 
 h5.footer {
